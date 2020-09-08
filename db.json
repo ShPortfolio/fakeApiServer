@@ -64,7 +64,6 @@
     {
       "id": 5,
       "name": "Favorite Carbonara",
-      "addons": ["tomatoes", "onion", "bacon", "mozzarella"],
       "addons": [
         { "name": "tomatoes", "price": 0.5 },
         { "name": "onion", "price": 0.5 },
@@ -116,7 +115,6 @@
     {
       "id": 8,
       "name": "Margherita",
-      "addons": ["oregano", "tomatoes", "mozzarella"],
       "addons": [
         { "name": "oregano", "price": 0.5 },
         { "name": "tomatoes", "price": 0.5 },
@@ -134,7 +132,6 @@
     {
       "id": 9,
       "name": "Hawaiian",
-      "addons": ["ham", "pineapples", "mozzarella"],
       "addons": [
         { "name": "ham", "price": 1 },
         { "name": "pineapples", "price": 1 },
@@ -148,6 +145,13 @@
       "sizes": { "default": 23, "mid": 30, "midPlus": 35, "large": 40 },
       "prices": { "default":  5, "mid": 7, "midPlus": 9, "large": 11 },
       "imgSrc": "/Hawai-traditional.jpg"
+    }
+  ],
+  "orderHistory": [
+    {
+    "userId": null,
+    "orderId": null,
+    "orderList": []  
     }
   ]
 }
